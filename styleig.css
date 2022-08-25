@@ -122,7 +122,8 @@ body {
 .app-download {
     height: 3rem;
     width: 10rem;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .app-download:nth-child(1) {
